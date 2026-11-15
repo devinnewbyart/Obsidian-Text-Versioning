@@ -2,6 +2,8 @@
 
 Text Versioning is an Obsidian 1.8.7+ plugin primarily created for writers to be able to write and compare alternate versions of selected passages without needing to create duplicate notes/Markdown files. The active version remains in the Markdown file/Obsidian note, while all alternate versions of selected text are stored in the plugin's `data.json` file.
 
+https://github.com/user-attachments/assets/67dcbc87-aa6c-49c1-94dc-ce7552ad24bd
+
 ## Features
 
 - Create alternate text versions/version groups of only the text you want without needing to navigate outside of the note
@@ -15,9 +17,14 @@ Text Versioning is an Obsidian 1.8.7+ plugin primarily created for writers to be
 - Restore the committed version when previewing ends without commitment
 - Cycle through live previews of all of the text versions using the arrow buttons
 - Cancel creating new versions and revert back to previous text without needing to re-type it
-- Receive confirmation notices when new versions are created or version creations are canceled 
-- Customize color of saved version notice box, version creation cancelled box, dotted underline color, and text highlighting from the plugin settings
+- Receive confirmation notices when new versions are created or version creations are canceled
 - Preserve version records when notes are renamed
+- Customize color of saved version notice box, version creation cancelled box, dotted underline color, and text highlighting from the plugin settings
+
+
+https://github.com/user-attachments/assets/6fb2fc42-04e6-445f-a0ec-3035c024cdfc
+
+
 
 ## Install manually
 
@@ -38,7 +45,7 @@ The status bar displays `TV 1.0.0` when this build is loaded.
 
 1. Select a passage and run **Create version from selection or current passage**.
 2. Type the replacement directly in the note.
-3. Run **Save new version draft**. Press **Escape** instead to cancel an active draft.
+3. Run **Save new version draft**. Press **Escape** instead to cancel an active draft. **You MUST save or cancel a new version once finished, otherwise you will be unable to create another version group and you will get an error message.**
 4. Hover over the underlined passage, or place the cursor inside it and run **Show versions for current passage**.
 5. Use the arrow buttons or arrow keys to preview versions in the note.
 6. Double-click the preview text to commit the displayed version. Moving away or pressing Escape restores the committed version.
