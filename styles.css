@@ -1,0 +1,76 @@
+.pv-region {
+  text-decoration: underline dotted var(--interactive-accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--tv-underline-color, var(--interactive-accent));
+}
+
+.pv-empty {
+  color: var(--text-muted);
+  background: var(--background-secondary);
+  border: 1px dashed var(--interactive-accent);
+  border-radius: 4px;
+  padding: 0 4px;
+  font-size: 0.75em;
+}
+
+.pv-popover {
+  position: fixed;
+  z-index: 1000;
+  width: min(380px, calc(100vw - 16px));
+  max-height: 45vh;
+  overflow: auto;
+  padding: 12px;
+  color: var(--text-normal);
+  background: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  box-shadow: var(--shadow-s);
+}
+
+.pv-header {
+  margin-bottom: 8px;
+  color: var(--text-muted);
+  font-size: var(--font-ui-smaller);
+}
+
+.pv-preview {
+  max-height: 25vh;
+  overflow: auto;
+  padding: 8px;
+  white-space: pre-wrap;
+  background: var(--background-secondary);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pv-hint {
+  margin: 8px 0;
+  color: var(--text-faint);
+  font-size: var(--font-ui-smaller);
+}
+
+.pv-controls {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.pv-region-current {
+  background-color: color-mix(
+    in srgb,
+    var(--interactive-accent) 18%,
+    transparent
+  );
+  border-radius: 2px;
+}
+
+.tv-notice-success {
+  background-color: var(--tv-success-color, var(--color-green));
+  color: var(--text-on-accent);
+}
+
+.tv-notice-cancel {
+  background-color: var(--tv-cancel-color, var(--color-red));
+  color: var(--text-on-accent);
+}
