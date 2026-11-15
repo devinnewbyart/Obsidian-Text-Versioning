@@ -1,0 +1,21 @@
+# vscode
+.vscode
+
+# Intellij
+*.iml
+.idea
+
+# npm
+node_modules
+
+# REMEMBER: main.js should be uploaded to GitHub releases. DO NOT include the compiled version in the repo!
+main.js
+
+# Exclude sourcemaps
+*.map
+
+# Local user versions and settings
+data.json
+
+# Exclude macOS Finder View States
+.DS_Store
